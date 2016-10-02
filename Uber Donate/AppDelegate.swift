@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import UberRides
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+            // If true, all requests will hit the sandbox, useful for testing
+            Configuration.setSandboxEnabled(true)
+            // If true, Native login will try and fallback to using Authorization Code Grant login (for privileged scopes). Otherwise will redirect to App store
+            Configuration.setFallbackEnabled(false)
+            // Complete other setup
+            return true
+        }
         return true
     }
 

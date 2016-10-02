@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This app needs to access your location</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -36,5 +38,25 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>uber</string>
+		<string>uberauth</string>
+	</array>
+	<key>UberClientID</key>
+	<string>Pv16y5KPjQFsvEFLeRVp1A_BMU7bjiKL</string>
+	<key>UberDisplayName</key>
+	<string>DonateMe</string>
+	<key>UberCallbackURIs</key>
+	<array>
+		<dict>
+			<key>UberCallbackURIType</key>
+			<string>General</string>
+			<key>URIString</key>
+			<string>[callback://your_callback_uri]</string>
+		</dict>
+	</array>
+	<key>UberServerToken</key>
+	<string>kUp-kJfdmCUYrFCOFwbvW-xLxGVeKCCC7DPsecq-</string>
 </dict>
 </plist>

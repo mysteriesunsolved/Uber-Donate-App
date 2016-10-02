@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		447021881DA02F06008134CF /* LocationSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447021871DA02F06008134CF /* LocationSearchController.swift */; };
 		44B8DD951D9F7D3900C19837 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B8DD941D9F7D3900C19837 /* AppDelegate.swift */; };
 		44B8DD971D9F7D3900C19837 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B8DD961D9F7D3900C19837 /* ViewController.swift */; };
 		44B8DD9A1D9F7D3900C19837 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B8DD981D9F7D3900C19837 /* Main.storyboard */; };
 		44B8DD9C1D9F7D3900C19837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44B8DD9B1D9F7D3900C19837 /* Assets.xcassets */; };
 		44B8DD9F1D9F7D3900C19837 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B8DD9D1D9F7D3900C19837 /* LaunchScreen.storyboard */; };
+		AC18DBB5ED88086D99C9FEDC /* Pods_Uber_Donate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3175622E8F48A68DA2EF8A8D /* Pods_Uber_Donate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3175622E8F48A68DA2EF8A8D /* Pods_Uber_Donate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Uber_Donate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35654118742DE7FD0F1CB720 /* Pods-Uber Donate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uber Donate.release.xcconfig"; path = "Pods/Target Support Files/Pods-Uber Donate/Pods-Uber Donate.release.xcconfig"; sourceTree = "<group>"; };
+		447021871DA02F06008134CF /* LocationSearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchController.swift; sourceTree = "<group>"; };
 		44B8DD911D9F7D3900C19837 /* Uber Donate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Uber Donate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44B8DD941D9F7D3900C19837 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44B8DD961D9F7D3900C19837 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		44B8DD9B1D9F7D3900C19837 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44B8DD9E1D9F7D3900C19837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44B8DDA01D9F7D3900C19837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBE106742AB456307FA4A519 /* Pods-Uber Donate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uber Donate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Uber Donate/Pods-Uber Donate.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC18DBB5ED88086D99C9FEDC /* Pods_Uber_Donate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				44B8DD931D9F7D3900C19837 /* Uber Donate */,
 				44B8DD921D9F7D3900C19837 /* Products */,
+				61FC45585FE582C3A9F2D036 /* Pods */,
+				94EBF3ED4A11C1B5940A639E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +69,26 @@
 				44B8DD9B1D9F7D3900C19837 /* Assets.xcassets */,
 				44B8DD9D1D9F7D3900C19837 /* LaunchScreen.storyboard */,
 				44B8DDA01D9F7D3900C19837 /* Info.plist */,
+				447021871DA02F06008134CF /* LocationSearchController.swift */,
 			);
 			path = "Uber Donate";
+			sourceTree = "<group>";
+		};
+		61FC45585FE582C3A9F2D036 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBE106742AB456307FA4A519 /* Pods-Uber Donate.debug.xcconfig */,
+				35654118742DE7FD0F1CB720 /* Pods-Uber Donate.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		94EBF3ED4A11C1B5940A639E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3175622E8F48A68DA2EF8A8D /* Pods_Uber_Donate.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44B8DDA31D9F7D3900C19837 /* Build configuration list for PBXNativeTarget "Uber Donate" */;
 			buildPhases = (
+				8133DD3D0276EF4B2D4E5253 /* [CP] Check Pods Manifest.lock */,
 				44B8DD8D1D9F7D3900C19837 /* Sources */,
 				44B8DD8E1D9F7D3900C19837 /* Frameworks */,
 				44B8DD8F1D9F7D3900C19837 /* Resources */,
+				41E25753140F4C24733911DE /* [CP] Embed Pods Frameworks */,
+				21C049CD36542DD59E5FF697 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -91,11 +121,14 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = 0110_0010_0000;
 				TargetAttributes = {
 					44B8DD901D9F7D3900C19837 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = G4SQ2NFEJG;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -130,6 +163,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21C049CD36542DD59E5FF697 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Uber Donate/Pods-Uber Donate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41E25753140F4C24733911DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Uber Donate/Pods-Uber Donate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8133DD3D0276EF4B2D4E5253 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		44B8DD8D1D9F7D3900C19837 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -137,6 +218,7 @@
 			files = (
 				44B8DD971D9F7D3900C19837 /* ViewController.swift in Sources */,
 				44B8DD951D9F7D3900C19837 /* AppDelegate.swift in Sources */,
+				447021881DA02F06008134CF /* LocationSearchController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,10 +258,13 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -199,7 +284,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -221,10 +306,13 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -238,32 +326,45 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		44B8DDA41D9F7D3900C19837 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBE106742AB456307FA4A519 /* Pods-Uber Donate.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = G4SQ2NFEJG;
 				INFOPLIST_FILE = "Uber Donate/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-110-0010-0000.Uber-Donate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
 		44B8DDA51D9F7D3900C19837 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35654118742DE7FD0F1CB720 /* Pods-Uber Donate.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = G4SQ2NFEJG;
 				INFOPLIST_FILE = "Uber Donate/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-110-0010-0000.Uber-Donate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -286,6 +387,7 @@
 				44B8DDA51D9F7D3900C19837 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
